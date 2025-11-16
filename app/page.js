@@ -1,6 +1,7 @@
 import Banner from "./home/Banner";
 import Image from "next/image";;
 import Nav from "./home/Nav";
+import Dreams from "./home/Dreams";
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
           <div className="border-box relative">
       <Nav />
       <Banner />
+      <Dreams/>
     </div>
           </div>
     

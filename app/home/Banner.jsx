@@ -5,6 +5,10 @@ import Image from "next/image";
 const Banner = () => {
   return (
     <>
+    <div>
+
+    </div>
+            
       <Container>
         <div className="w-full py-[100px] relative">
 <p className="text-[160px] font-bold font-orbitron text-center text-white mt-[-50px] relative">
@@ -95,6 +99,12 @@ const Banner = () => {
 </div>
         </div>
       </Container>
+     <div className='py-10 relative'>
+     <div className=' left-right'></div>
+      <div className="mt-[-30px] top-left-image"></div>
+      <div className="mt-[-30px] top-right-image"></div>
+      </div> 
+    
     </>
   );
 };

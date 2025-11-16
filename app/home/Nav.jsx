@@ -9,7 +9,7 @@ const Nav = () => {
        
 
         
-<div className="bg-black py-10 ">
+<div className=" py-10 ">
 
 <div className="top-left-image"></div>
 <div className="top-right-image"></div>

@@ -29,11 +29,11 @@
   position: absolute;
   top: 0;
   right: 40px;
-  width: 3px;        /* thickness */
-  height: 100%;      /* full height */
+  width: 3px;        
+  height: 100%;      
   background: linear-gradient(to bottom, #E03609, #F0B71F);
 }
-/* Top-left image */
+
 .top-left-image {
   position: absolute;
   top: 83px;
@@ -45,7 +45,7 @@
   background-repeat: no-repeat;
 }
 
-/* Top-right image */
+
 .top-right-image {
   position: absolute;
   top: 83px;
