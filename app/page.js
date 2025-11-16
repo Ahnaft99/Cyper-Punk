@@ -2,6 +2,7 @@ import Banner from "./home/Banner";
 import Image from "next/image";;
 import Nav from "./home/Nav";
 import Dreams from "./home/Dreams";
+import Unveil from "./home/Unveil";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Nav />
       <Banner />
       <Dreams/>
+      <Unveil/>
     </div>
           </div>
     

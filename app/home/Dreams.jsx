@@ -36,7 +36,11 @@ const Dreams = () => {
         </div>
         </div>
       </Container>
-    
+      <div className='py-10 relative'>
+     <div className=' left-right'></div>
+      <div className="mt-[-30px] top-left-image"></div>
+      <div className="mt-[-30px] top-right-image"></div>
+      </div> 
     </div>
   )
 }
