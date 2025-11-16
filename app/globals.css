@@ -2,4 +2,64 @@
 .font-orbitron {
     font-family: var(--font-orbitron);
   }
+.body{
+  background-color: black;
+}
+
+
+.left-right{
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #E03609, #F0B71F);
+  margin-top: 40px;
+}
+
+
+.border-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 3px;        
+  height: 100%;      
+  background: linear-gradient(to bottom, #E03609, #F0B71F);
+}
+.border-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 40px;
+  width: 3px;        /* thickness */
+  height: 100%;      /* full height */
+  background: linear-gradient(to bottom, #E03609, #F0B71F);
+}
+/* Top-left image */
+.top-left-image {
+  position: absolute;
+  top: 83px;
+  left: 10px;
+  width: 61px;
+  height: 61px;
+  background-image: url('/Image/Union.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Top-right image */
+.top-right-image {
+  position: absolute;
+  top: 83px;
+  right: 10px;
+  width: 61px;
+  height: 61px;
+  background-image: url('/Image/Union2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.text-cyber {
+  background: linear-gradient(to right, #E03609, #F0B71F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
