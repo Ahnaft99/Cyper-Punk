@@ -40,7 +40,7 @@
   left: 10px;
   width: 61px;
   height: 61px;
-  background-image: url('/Image/Union.png');
+  background-image: url('/image/Union.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -52,7 +52,7 @@
   right: 10px;
   width: 61px;
   height: 61px;
-  background-image: url('/Image/Union2.png');
+  background-image: url('/image/Union2.png');
   background-size: contain;
   background-repeat: no-repeat;
 }

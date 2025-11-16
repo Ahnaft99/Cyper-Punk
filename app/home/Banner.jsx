@@ -17,7 +17,7 @@ const Banner = () => {
 
           <div className="absolute top-[180px] left-1/2 -translate-x-1/2">
             <Image
-              src="/Image/banOne.png"
+              src="/image/banOne.png"
               alt="banner"
               height={450}
               width={500}
@@ -72,7 +72,7 @@ const Banner = () => {
         <div className="w-5/12 ">
   <div className="relative bg-black/60 w-[500px] h-[280px] -translate-y-20  border-2 border-amber-500 rounded-[20px]">
     <div className="h-[200px] w-[300px] ml-[10px] py-[10px] flex gap-4 mt-8 ">
-      <Image src="/Image/banTwo.png" alt="bantwo" width={300} height={100} />
+      <Image src="/image/banTwo.png" alt="bantwo" width={300} height={100} />
 
       <div className=''>
         <h4 className="text-[57px] text-cyber font-bold">76,285K+</h4>

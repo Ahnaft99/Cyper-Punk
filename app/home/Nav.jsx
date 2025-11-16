@@ -16,7 +16,7 @@ const Nav = () => {
 <Container className=" mx-auto ">
         <div className="lg:flex items-center justify-between">
             <div className="">
-                <Image src="/Image/logo.png" alt="logo"  width={150} 
+                <Image src="/image/logo.png" alt="logo"  width={150} 
     height={50} />
             </div>
             <div className="">
